@@ -12,6 +12,11 @@ body {
   min-height: 100%;
   background-color: #e1dfdd;
   font-family: "Ubuntu", sans-serif;
+  cursor: url(./imagenes/cursor1.png), auto;
+}
+
+a {
+  cursor: url(./imagenes/cursor2.png), auto;
 }
 
 .contenedor__grid {
