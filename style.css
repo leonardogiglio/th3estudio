@@ -68,9 +68,17 @@ body {
 .contenedor__header {
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
+  margin-top: 80px;
   margin-bottom: 80px;
   width: 100%;
+}
+
+.sticky {
+  position: sticky;
+  top:0;
+  background-color: #e1dfdd;
+  margin-top: 40px;
+  z-index: 1;
 }
 
 .logo {
