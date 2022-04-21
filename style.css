@@ -106,6 +106,15 @@ a {
   font-weight: 200;
 }
 
+.nav__link{
+  color: #2e2d59;
+  transition: color 2s ease-in-out;
+}
+
+.nav__link:hover{
+  color: #7C9A78;
+}
+
 h1 {
   font-size: 80px;
   font-weight: 200;
