@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="bootstrap.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
@@ -13,69 +14,145 @@
   
 </head>
 <body>
-        <header class="contenedor__header sticky">
-                <img src="./imagenes/Logo.png" class="logo" alt="Logo Estudio TH3">
-            <nav>
-                <ul class="header__nav" >
-                    <li>
-                        <a href=# class="nav__link">Home</a>
-                    </li>
-                    <li>
-                        <a href="./paginas/estudio.html" class="nav__link">Estudio</a>
-                    </li>
-                    <li>
-                        <a href="./paginas/proyectos.html" class="nav__link">Proyectos</a>
-                    </li>
-                    <li>
-                        <a href="./paginas/quienes-somos.html" class="nav__link">Quiénes Somos</a>
-                    </li>
-                    <li>
-                        <a href="./paginas/contacto.html" class="nav__link">Contacto</a>
-                    </li>
-                </ul>
-            </nav>
-        </header>
+    <div class="container-fluid">
+    
+        <header class="row sticky">
+        <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                  <img src="./imagenes/Logo.png" class="logo" alt="Logo Estudio TH3">
+              </a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    <a class="nav-link" href="./paginas/estudio.html">Estudio</a>
+                  <a class="nav-link" href="./paginas/proyectos.html">Proyectos</a>
+                  <a class="nav-link" href="./paginas/quienes-somos.html">Quiénes Somos</a>
+                  <a class="nav-link" href="./paginas/contacto.html">Contacto</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+         </header>
         <main>
             <section class="contenedor__grid">
-                <h1 class="h1--top">Creamos imágenes<br> que valen mil palabras</h1>
-                <div class="top__contenido">
-                <img src="./imagenes/foto8.jpg" class="top__img" alt="Imagen Estudio TH3">
-                </div>
-                <h5 class="top__h5">Lorem ipsum dolor sit amet consectetur.<br> Adipiscing elit sed diam nonummy nibh.</h5>
-                <h5 class="h5__medio">Dolor Asim Consectur</h5>
-                <div class="contenedor__flecha">
-                    <img src="./imagenes/flecha.png" class="medio__img">
-                </div>
-                <h4 class="h4--medio">Lorem ipsum dolor<br> sit, consectetur.</h4>
-                <h5 class="h5__01__top">01</h5>
-                <h5 class="h5__tit1__top">Dolor Asim</h5>
-                <h5 class="h5__tit2__top">Dolor Asim</h5>
-                <div class="seccion__01__medio">
-                    <h2 class="medio--1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor do it incididunt ut labore et dolore magna aliqua.</h2>
-                        <br><br>
-                    <h2 class="medio--2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor do it incididunt ut labore et dolore magna aliqua.</h2>
+                <section class="row seccion__titulo">
+                    <div class="col-11 offset-1">
+                        <h1 class>Creamos imágenes<br> que valen mil palabras</h1>
                     </div>
-                <h4 class="h4--down">Lorem ipsum dolor<br> quos consectetur.</h4>
-                <p class="p--down"> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ea ipsum natus, praesentium ab facere, provident consequuntur repudiandae necessitatibus magnam labore tempora? Tempora, expedita. Modi nesciunt exercitationem sint debitis itaque!
-                        Laboriosam ex sunt architecto ad nihil tempora tenetur rem perspiciatis enim nam porro, consequuntur, sit cupiditate deserunt repudiandae repellat dolore! Quo doloribus ad sapiente, illo laboriosam suscipit maiores cum dolores?
-                        Voluptates laboriosam quia reiciendis mollitia perferendis aliquam unde, in quod praesentium sunt officiis. Rerum natus numquam atque libero deserunt veritatis repudiandae iusto.</p>
-                <h5 class="h5__02__medio">02</h5>
-                <h5 class="h5__tit1__medio">Dolor Asim</h5>
-                <h5 class="h5__tit2__medio">Dolor Asim</h5>
-                <div class="seccion__02__medio__col">
-                    <article class="contenedor__sticky2">
-                    <h4 class="h4--col">Lorem ipsum dolor<br>sit, consectetur.</h4>
-                    <p class="p--col">Laboriosam ex sunt architecto ad nihil<br>tempora tenetur rem perspiciatis enim<br> porro sit cupiditate.</p>
-                </article>
-                </div>
-                    <img src="./imagenes/foto10.jpg" class="seccion02__img">
-                <h5 class="h5__03__down">03</h5>
-                <h5 class="h5__tit1__down">info@th3estudio.com</h5>
-                <h5 class="h5__tit2__down">(5411) 4776-0967</h5>
-                <h1 class="h1--seccion03">loremipsum@ <br>  dolorasim.com</h1>
-                <h5 class="h5__insta">Instagram</h5>
-                <h5 class="h5__face">Facebook</h5>
-            </section>
+                 </section>
+    
+                 <section class="row seccion__contenido">
+                    <div class="col-8 offset-1">
+                        <img src="./imagenes/foto8.jpg" alt="Imagen Estudio TH3">
+                    </div>
+                    <div class="col-3">
+                        <h5>Lorem ipsum dolor sit amet consectetur.<br> Adipiscing elit sed diam nonummy nibh.</h5>
+                    </div>
+                </section>
+
+                <section class="row seccion__flecha">
+                    <div class="col-3 offset-1">
+                        <h5>Dolor Asim Consectur</h5>
+                    </div>
+                    <div class="col-6 offset-2">
+                        <h4 class="h4--medio">Lorem ipsum dolor<br> sit, consectetur.</h4>
+                    </div>
+                </section>
+
+                <section class="row flecha">
+                    <div class="col-11 offset-1">
+                        <img src="./imagenes/flecha.png" class="flecha__img">
+                    </div>
+                </section>
+
+                <section class="row seccion__titulo">
+                    <div class="col-1 offset-1">
+                        <h5>01</h5>
+                    </div>
+                    <div class="col-2">
+                        <h5>Dolor Asim</h5>
+                    </div>
+                    <div class="col-6 offset-2">
+                        <h5>Dolor Asim</h5>
+                    </div>
+                </section>
+
+                <section class="row seccion__texto">
+                    <div class="col-6 offset-6">
+                        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor do it incididunt ut labore et dolore magna aliqua.</h2>
+                    </div>
+                </section>
+                <section class="row seccion__texto2">
+                    <div class="col-6 offset-6">
+                        <h2>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed eiusmod tempor do it incididunt ut labore et dolore magna aliqua.</h2>
+                    </div>
+                </section>
+            
+                <section class="row seccion__texto">
+                    <div class="col-4 offset-2">
+                        <h4>Lorem ipsum dolor<br> quos consectetur.</h4>
+                    </div>
+                    <div class="col-6 seccion__texto2">
+                        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ad ea ipsum natus, praesentium ab facere, provident consequuntur repudiandae necessitatibus magnam labore tempora? Tempora, expedita. Modi nesciunt exercitationem sint debitis itaque!
+                            Laboriosam ex sunt architecto ad nihil tempora tenetur rem perspiciatis enim nam porro, consequuntur, sit cupiditate deserunt repudiandae repellat dolore! Quo doloribus ad sapiente, illo laboriosam suscipit maiores cum dolores?
+                            Voluptates laboriosam quia reiciendis mollitia perferendis aliquam unde, in quod praesentium sunt officiis. Rerum natus numquam atque libero deserunt veritatis repudiandae iusto.</p>
+                    </div>
+                </section>
+                
+                <section class="row seccion__titulo">
+                    <div class="col-1 offset-1">
+                        <h5>02</h5>
+                    </div>
+                    <div class="col-2">
+                        <h5>Dolor Asim</h5>
+                    </div>
+                    <div class="col-6 offset-2">
+                        <h5>Dolor Asim</h5>
+                    </div>
+                </section>
+                    
+                <section class="row seccion__contenido">
+                    <div class="col-4 offset-2">
+                        <h4>Lorem ipsum dolor<br>sit, consectetur.</h4>
+                        <p>Laboriosam ex sunt architecto ad nihil<br>tempora tenetur rem perspiciatis enim<br> porro sit cupiditate.</p>
+                    </div>
+                    <div class="col-6">
+                        <img src="./imagenes/foto10.jpg">
+                    </div>
+                </section>
+               
+                <section class="row seccion__titulo">
+                    <div class="col-1 offset-1">
+                        <h5>04</h5>
+                    </div>
+                    <div class="col-2">
+                        <h5>info@th3estudio.com</h5>
+                    </div>
+                    <div class="col-6 offset-2">
+                        <h5>(5411) 4776-0967</h5>
+                    </div>
+                </section>
+                <section class="row seccion__contenido">
+                    <div class="col-6 offset-6">
+                        <h1>loremipsum@ <br>  dolorasim.com</h1>
+                    </div>
+                </section>
+                <section class="row seccion__titulo">
+                    <div class="col-2 offset-6">
+                        <h5>Instagram</h5>
+                    </div>
+                    <div class="col-1 offset-3">
+                        <h5>Facebook</h5>
+                    </div>
+                </section>
+        
         </main>
+    </div>
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
