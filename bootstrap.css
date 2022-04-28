@@ -248,7 +248,7 @@
     }
   
   
-  @media screen and (max-width:650px) {
+  @media screen and (max-width:555px) {
       h1 {
         font-size: 30px;
         font-weight: 200;
@@ -288,8 +288,6 @@
       }
     
       .logo {
-        width: 10%;
-        height: 10%;
-        padding-bottom: 10px;
+        visibility: hidden;
       }
     }
