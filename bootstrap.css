@@ -58,6 +58,31 @@
   .nav-link {
     font-family: "Ubuntu", sans-serif;
     font-size: 14px;
+    position: relative;
+  }
+
+  a {
+    position: relative;
+  }
+
+  a::after{
+    content: '';
+    width: 0%;
+    height: 1px;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #2e2d59;
+    transition: widht 0.5s;
+  }
+
+  a:hover::after{
+    width: 50%;
+  }
+
+  a.navbar-brand:hover::after{
+    width: 0%;
   }
   
   @keyframes movimiento {
@@ -76,7 +101,7 @@
       opacity: 1;
     }
   }
-  
+
   .header__nav {
     display: flex;
     list-style: none;
