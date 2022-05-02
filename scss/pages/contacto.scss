@@ -2,6 +2,7 @@
 
     .seccion__titulo {
         margin-bottom: $espacio-xl;
+        margin-top: $espacio-xl;
     }
 
     .seccion__contenido {
@@ -13,7 +14,24 @@
       }
     
     .seccion__texto2 {
-        margin-bottom: $espacio-2xl;
+        margin-bottom: $espacio-xl;
       }
 
+    p {
+        font-size: $texto-p;
+        font-weight: 200;
+        line-height: 150%;
+      }
 }
+
+
+  
+
+
+
+
+
+
+
+
+

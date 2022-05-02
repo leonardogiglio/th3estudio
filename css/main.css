@@ -7,8 +7,9 @@ html {
   min-height: 100%; }
 
 body {
-  background-color: #E1DFDD;
-  font-family: "Ubuntu", sans-serif; }
+  background-color: #CFCBC8;
+  font-family: "Ubuntu", sans-serif;
+  color: #2E2D59; }
 
 .contenedor__grid {
   animation: movimiento 2s ease-in-out backwards; }
@@ -24,6 +25,32 @@ body {
   100% {
     transform: translateY(0);
     opacity: 1; } }
+
+.container-fluid h1 {
+  font-size: 80px;
+  font-weight: 200;
+  letter-spacing: -6px;
+  line-height: 100%; }
+
+.container-fluid h2 {
+  font-size: 42px;
+  font-weight: 400;
+  line-height: 120%; }
+
+.container-fluid h3 {
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 120%; }
+
+.container-fluid h4 {
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 110%; }
+
+.container-fluid h5 {
+  font-size: 20px;
+  font-weight: 100;
+  line-height: 120%; }
 
 header .sticky {
   position: sticky;
@@ -58,7 +85,8 @@ header .nav-link {
     width: 0%; }
 
 .contenedor__grid .seccion__titulo {
-  margin-bottom: 64px; }
+  margin-bottom: 64px;
+  margin-top: 64px; }
 
 .contenedor__grid .seccion__contenido {
   margin-bottom: 2px; }
@@ -67,4 +95,9 @@ header .nav-link {
   margin-bottom: 40px; }
 
 .contenedor__grid .seccion__texto2 {
-  margin-bottom: 128px; }
+  margin-bottom: 64px; }
+
+.contenedor__grid p {
+  font-size: 16px;
+  font-weight: 200;
+  line-height: 150%; }
