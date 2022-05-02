@@ -1,0 +1,70 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0; }
+
+html {
+  min-height: 100%; }
+
+body {
+  background-color: #E1DFDD;
+  font-family: "Ubuntu", sans-serif; }
+
+.contenedor__grid {
+  animation: movimiento 2s ease-in-out backwards; }
+
+@keyframes movimiento {
+  0% {
+    transform: translateY(10vh);
+    opacity: 0; }
+  50% {
+    opacity: 1; }
+  70% {
+    opacity: 1; }
+  100% {
+    transform: translateY(0);
+    opacity: 1; } }
+
+header .sticky {
+  position: sticky;
+  top: 0;
+  background-color: #E1DFDD;
+  z-index: 1;
+  margin-bottom: 64px; }
+
+header .logo {
+  width: 10%;
+  height: auto; }
+
+header .nav-link {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
+  position: relative; }
+  header .nav-link a {
+    position: relative; }
+  header .nav-link::after {
+    content: '';
+    width: 0%;
+    height: 1px;
+    position: absolute;
+    bottom: 5px;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #2e2d59;
+    transition: widht 0.5s; }
+  header .nav-link:hover::after {
+    width: 50%; }
+  header .nav-link.navbar-brand:hover::after {
+    width: 0%; }
+
+.contenedor__grid .seccion__titulo {
+  margin-bottom: 64px; }
+
+.contenedor__grid .seccion__contenido {
+  margin-bottom: 2px; }
+
+.contenedor__grid .seccion__texto {
+  margin-bottom: 40px; }
+
+.contenedor__grid .seccion__texto2 {
+  margin-bottom: 128px; }

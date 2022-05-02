@@ -1,0 +1,45 @@
+header {
+
+        .sticky{
+            position: sticky;
+            top:0;
+            background-color: $color-fondo-claro;
+            z-index: 1;
+            margin-bottom: $espacio-xl;
+        }
+
+        .logo {
+            width: 10%;
+            height: auto;
+        }
+
+        .nav-link {
+            font-family: $font;
+            font-size: $texto-link;
+            position: relative;
+
+            a {
+                position: relative;
+            }
+
+            &::after {
+                content: '';
+                width: 0%;
+                height: 1px;
+                position: absolute;
+                bottom: 5px;
+                left: 50%;
+                transform: translateX(-50%);
+                background: #2e2d59;
+                transition: widht 0.5s;
+            }
+
+            &:hover::after{
+                width: 50%;
+            }
+
+            &.navbar-brand:hover::after {
+                width: 0%;
+            }
+          }
+}

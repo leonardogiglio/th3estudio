@@ -116,15 +116,6 @@
     font-weight: 200;
   }
   
-  .nav__link{
-    color: #2e2d59;
-    transition: color 2s ease-in-out;
-  }
-  
-  .nav__link:hover{
-    color: #7C9A78;
-  }
-  
   h1 {
     font-size: 80px;
     font-weight: 200;
@@ -168,19 +159,9 @@
     line-height: 150%;
   }
   
-  .medio__img:hover {
-    transition: transform 2s ease-in-out;
-    transform: translateY(80%);
-  }
-  
   .contenedor__sticky {
     position: sticky;
     top: 80px;
-  }
-  
-  .contenedor__sticky2 {
-    position: sticky;
-    top: 60px;
   }
   
   @media screen and (max-width:1000px) {
