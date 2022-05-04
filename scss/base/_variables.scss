@@ -1,33 +1,37 @@
 //variables de color//
 
-$color-principal-claro:#57567B;
-$color-principal-medio:#2E2D59;
-$color-principal-oscuro:#1C1B50;
+$mapa-color: (
+    $color-principal-claro:#57567B,
+    $color-principal-medio:#2E2D59,
+    $color-principal-oscuro:#1C1B50,
 
-$color-secundario-claro:#9EB69B;
-$color-secundario-medio:#8DA68A;
-$color-secundario-oscuro:#7C9A78;
+    $color-secundario-claro:#9EB69B,
+    $color-secundario-medio:#8DA68A,
+    $color-secundario-oscuro:#7C9A78,
 
-$color-fondo-claro:#E1DFDD;
-$color-fondo-medio:#D6D3D1;
-$color-fondo-oscuro:#CFCBC8;
+    $color-fondo-claro:#E1DFDD,
+    $color-fondo-medio:#D6D3D1,
+    $color-fondo-oscuro:#CFCBC8,
 
-$color-texto-claro:#6F6E6E;
-$color-texto-medio:#454444;
-$color-texto-oscuro:#0D0D0D;
+    $color-texto-claro:#6F6E6E,
+    $color-texto-medio:#454444,
+    $color-texto-oscuro:#0D0D0D,
+);
 
 //variables tipograficas//
 
 $font:"Ubuntu", sans-serif;
 
-$texto-h1: 80px;
-$texto-h2: 42px;
-$texto-h3: 36px;
-$texto-h4: 28px;
-$texto-h5: 20px;
-$texto-p: 16px;
-$texto-link: 14px;
-$texto-nota: 12px;
+$mapa-tipografia: (
+    $texto-h1: 80px,
+    $texto-h2: 42px,
+    $texto-h3: 36px,
+    $texto-h4: 28px,
+    $texto-h5: 20px,
+    $texto-p: 16px,
+    $texto-link: 14px,
+    $texto-nota: 12px,
+);
 
 $spacing-condensada: -6px;
 $spacing-normal:0;
@@ -81,11 +85,13 @@ $texto-p: 10px;
 
 //variables de espaciado//
 
-$espacio-2xs: 2px;
-$espacio-xs:4px;
-$espacio-xs:8px;
-$espacio-s:16px;
-$espcaio-m:32px;
-$espacio-l:40px;
-$espacio-xl:64px;
-$espacio-2xl:128px;
+$mapa-espaciado: (
+    $espacio-2xs: 2px,
+    $espacio-xs: 4px,
+    $espacio-xs:8px,
+    $espacio-s:16px,
+    $espcaio-m:32px,
+    $espacio-l:40px,
+    $espacio-xl:64px,
+    $espacio-2xl:128px,
+);
