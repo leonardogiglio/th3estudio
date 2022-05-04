@@ -1,0 +1,5 @@
+@mixin tipografico($weight-regular, $spacing-condensada, $height-normal) {
+    font-weight: $weight-regular;
+    letter-spacing: $spacing-condensada;
+    line-height: $height-normal;
+}

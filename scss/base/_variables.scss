@@ -29,6 +29,20 @@ $texto-p: 16px;
 $texto-link: 14px;
 $texto-nota: 12px;
 
+$spacing-condensada: -6px;
+$spacing-normal:0;
+$spacing-expandida: +6px;
+
+$weight-light: 100;
+$weight-regular: 200;
+$weight-bold: 400;
+
+$height-normal: 100%;
+$height-small: 120%;
+$height-large: 150%;
+
+
+
 @media screen and (max-width:1000px) {
     
 $texto-h1: 60px;
