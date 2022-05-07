@@ -5,7 +5,7 @@ header {
             top:0;
             background-color: map-get($mapa-color, $color-fondo-oscuro);
             z-index: 1;
-            margin-bottom: map-get($mapa-espaciado , $espacio-xl);
+            margin-bottom: map-get($mapa-espaciado, $espacio-xl);
         }
 
         .logo {
@@ -30,7 +30,7 @@ header {
                 bottom: 5px;
                 left: 50%;
                 transform: translateX(-50%);
-                background: map-get($mapa-color, $color-secundario-medio);
+                background: map-get($mapa-color, $color-principal-medio);
                 transition: widht 0.5s;
             }
 

@@ -29,7 +29,7 @@
 
   h2 {
     font-size: map-get($mapa-tipografia, $texto-h2);
-    @include tipografico($weight-bold, $spacing-normal, $height-small);
+    @include tipografico($weight-regular, $spacing-condensada, $height-normal);
   }
 
   h3 {

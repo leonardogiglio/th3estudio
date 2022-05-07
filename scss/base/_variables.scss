@@ -1,56 +1,55 @@
 //variables de color//
 
-$mapa-color: (
-    $color-principal-claro:#57567B,
-    $color-principal-medio:#2E2D59,
-    $color-principal-oscuro:#1C1B50,
-
-    $color-secundario-claro:#9EB69B,
-    $color-secundario-medio:#8DA68A,
-    $color-secundario-oscuro:#7C9A78,
-
-    $color-fondo-claro:#E1DFDD,
-    $color-fondo-medio:#D6D3D1,
-    $color-fondo-oscuro:#CFCBC8,
-
-    $color-texto-claro:#6F6E6E,
-    $color-texto-medio:#454444,
-    $color-texto-oscuro:#0D0D0D,
-);
+$color-principal-claro:#57567B;
+$color-principal-medio:#2E2D59;
+$color-principal-oscuro:#1C1B50;
+$color-secundario-claro:#9EB69B;
+$color-secundario-medio:#8DA68A;
+$color-secundario-oscuro:#7C9A78;
+$color-fondo-claro:#E1DFDD;
+$color-fondo-medio:#D6D3D1;
+$color-fondo-oscuro:#CFCBC8;
+$color-texto-claro:#6F6E6E;
+$color-texto-medio:#454444;
+$color-texto-oscuro:#0D0D0D;
 
 //variables tipograficas//
 
 $font:"Ubuntu", sans-serif;
 
-$mapa-tipografia: (
-    $texto-h1: 80px,
-    $texto-h2: 42px,
-    $texto-h3: 36px,
-    $texto-h4: 28px,
-    $texto-h5: 20px,
-    $texto-p: 16px,
-    $texto-link: 14px,
-    $texto-nota: 12px,
-);
+$texto-h1: 96px;
+$texto-h2: 80px;
+$texto-h3: 36px;
+$texto-h4: 28px;
+$texto-h5: 20px;
+$texto-p: 16px;
+$texto-link: 14px;
+$texto-nota: 12px;
+
+//variables anchura tipografico//
 
 $spacing-condensada: -6px;
 $spacing-normal:0;
 $spacing-expandida: +6px;
 
+//variables peso tipografico//
+
 $weight-light: 100;
 $weight-regular: 200;
 $weight-bold: 400;
+
+//variables interletrado//
 
 $height-normal: 100%;
 $height-small: 120%;
 $height-large: 150%;
 
-
+//media querys tipografia//
 
 @media screen and (max-width:1000px) {
     
 $texto-h1: 60px;
-$texto-h2: 32px;
+$texto-h2: 60px;
 $texto-h3: 26px;
 $texto-h4: 22px;
 $texto-h5: 14px;
@@ -62,7 +61,7 @@ $texto-nota: 10px;
 @media screen and (max-width:850px) {
 
 $texto-h1: 50px;
-$texto-h2: 28px;
+$texto-h2: 50px;
 $texto-h3: 24px;
 
 }
@@ -70,7 +69,7 @@ $texto-h3: 24px;
 @media screen and (max-width:700px) {
 
 $texto-h1: 40px;
-$texto-h2: 24px;
+$texto-h2: 40px;
 $texto-h4: 20px;
     
 }
@@ -78,20 +77,18 @@ $texto-h4: 20px;
 @media screen and (max-width:555px) {
 
 $texto-h1: 30px;
-$texto-h2: 20px;
+$texto-h2: 30px;
 $texto-h4: 18px;
 $texto-p: 10px;  
 } 
 
 //variables de espaciado//
 
-$mapa-espaciado: (
-    $espacio-2xs: 2px,
-    $espacio-xs: 4px,
-    $espacio-xs:8px,
-    $espacio-s:16px,
-    $espcaio-m:32px,
-    $espacio-l:40px,
-    $espacio-xl:64px,
-    $espacio-2xl:128px,
-);
+$espacio-2xs: 2px;
+$espacio-xxs: 4px;
+$espacio-xs: 8px;
+$espacio-s: 16px;
+$espcaio-m: 32px;
+$espacio-l: 40px;
+$espacio-xl: 64px;
+$espacio-2xl: 128px;

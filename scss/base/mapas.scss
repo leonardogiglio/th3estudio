@@ -1,0 +1,46 @@
+// mapa color //
+
+$mapa-color: (
+    "color-principal-claro":$color-principal-claro,
+    "color-principal-medio":$color-principal-medio,
+    "color-principal-oscuro":$color-principal-oscuro,
+
+    "color-secundario-claro":$color-secundario-claro,
+    "color-secundario-medio":$color-secundario-medio,
+    "color-secundario-oscuro":$color-secundario-oscuro,
+
+    "color-fondo-claro":$color-fondo-claro,
+    "color-fondo-medio":$color-fondo-medio,
+    "color-fondo-oscuro":$color-fondo-oscuro,
+
+    "color-texto-claro":$color-texto-claro,
+    'color-texto-medio':$color-texto-medio,
+    'color-texto-oscuro':$color-texto-oscuro,
+);
+
+
+// mapa tipografia //
+
+$mapa-tipografia: (
+    "texto-h1": $texto-h1,
+    "texto-h2": $texto-h2,
+    "texto-h3": $texto-h3,
+    "texto-h4": $texto-h4,
+    "texto-h5": $texto-h5,
+    "texto-p": $texto-p,
+    "texto-link": $texto-link,
+    "texto-nota": $texto-nota,
+);
+
+//mapa espaciado //
+
+$mapa-espaciado: (
+    "espacio-2xs": $espacio-2xs,
+    "espacio-xxs": $espacio-xxs,
+    "espacio-xs": $espacio-xs,
+    "espacio-s": $espacio-s,
+    "espcaio-m": $espcaio-m,
+    "espacio-l": $espacio-l,
+    "espacio-xl": $espacio-xl,
+    "espacio-2xl": $espacio-2xl,
+);
