@@ -3,9 +3,9 @@ header {
         .sticky{
             position: sticky;
             top:0;
-            background-color: map-get($mapa-color, $color-fondo-oscuro);
+            background-color: map-get($mapa-color, 'color-fondo-oscuro');
             z-index: 1;
-            margin-bottom: map-get($mapa-espaciado, $espacio-xl);
+            margin-bottom: $espacio-xl;
         }
 
         .logo {
@@ -15,7 +15,7 @@ header {
 
         .nav-link {
             font-family: $font;
-            font-size: map-get($mapa-tipografia, $texto-link);
+            font-size: map-get($mapa-tipografia , 'texto-link');
             position: relative;
 
             a {
@@ -30,7 +30,7 @@ header {
                 bottom: 5px;
                 left: 50%;
                 transform: translateX(-50%);
-                background: map-get($mapa-color, $color-principal-medio);
+                background: map-get($mapa-color , 'color-principal-medio');
                 transition: widht 0.5s;
             }
 

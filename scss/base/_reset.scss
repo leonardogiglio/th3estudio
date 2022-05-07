@@ -9,7 +9,7 @@
   }
 
   body {
-    background-color: map-get($mapa-color, $color-fondo-oscuro);
+    background-color: map-get($mapa-color, 'color-fondo-oscuro');
     font-family: $font;
-    color: map-get($mapa-color, $color-principal-medio);
+    color: map-get($mapa-color , 'color-principal-medio');
   }

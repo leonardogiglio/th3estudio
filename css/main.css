@@ -7,7 +7,9 @@ html {
   min-height: 100%; }
 
 body {
-  font-family: "Ubuntu", sans-serif; }
+  background-color: #CFCBC8;
+  font-family: "Ubuntu", sans-serif;
+  color: #2E2D59; }
 
 .contenedor__grid {
   animation: movimiento 2s ease-in-out backwards; }
@@ -25,31 +27,37 @@ body {
     opacity: 1; } }
 
 .container-fluid h1 {
+  font-size: 96px;
   font-weight: 200;
   letter-spacing: -6px;
   line-height: 100%; }
 
 .container-fluid h2 {
+  font-size: 80px;
   font-weight: 200;
   letter-spacing: -6px;
   line-height: 100%; }
 
 .container-fluid h3 {
+  font-size: 36px;
   font-weight: 400;
   letter-spacing: 0;
   line-height: 120%; }
 
 .container-fluid h4 {
+  font-size: 28px;
   font-weight: 400;
   letter-spacing: 0;
   line-height: 100%; }
 
 .container-fluid h5 {
+  font-size: 20px;
   font-weight: 100;
   letter-spacing: 0;
   line-height: 120%; }
 
 .container-fluid p {
+  font-size: 16px;
   font-weight: 200;
   letter-spacing: 0;
   line-height: 150%; }
@@ -57,7 +65,9 @@ body {
 header .sticky {
   position: sticky;
   top: 0;
-  z-index: 1; }
+  background-color: #CFCBC8;
+  z-index: 1;
+  margin-bottom: 64px; }
 
 header .logo {
   width: 10%;
@@ -65,6 +75,7 @@ header .logo {
 
 header .nav-link {
   font-family: "Ubuntu", sans-serif;
+  font-size: 14px;
   position: relative; }
   header .nav-link a {
     position: relative; }
@@ -76,8 +87,25 @@ header .nav-link {
     bottom: 5px;
     left: 50%;
     transform: translateX(-50%);
+    background: #2E2D59;
     transition: widht 0.5s; }
   header .nav-link:hover::after {
     width: 50%; }
   header .nav-link.navbar-brand:hover::after {
     width: 0%; }
+
+.contenedor__grid .seccion__titulo {
+  margin-bottom: 64px;
+  margin-top: 64px; }
+
+.contenedor__grid .seccion__contenido {
+  margin-bottom: 2px; }
+  .contenedor__grid .seccion__contenido img {
+    max-width: 100%; }
+
+.contenedor__grid .seccion__texto2 {
+  margin-bottom: 64px; }
+
+.contenedor__grid .seccion__flecha {
+  margin-bottom: 64px;
+  margin-top: 128px; }

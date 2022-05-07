@@ -23,32 +23,32 @@
 .container-fluid {
     
   h1 {
-    font-size: map-get($mapa-tipografia, $texto-h1);
+    font-size: map-get($mapa-tipografia , 'texto-h1');
     @include tipografico($weight-regular, $spacing-condensada, $height-normal);
   }
 
   h2 {
-    font-size: map-get($mapa-tipografia, $texto-h2);
+    font-size: map-get($mapa-tipografia , 'texto-h2');
     @include tipografico($weight-regular, $spacing-condensada, $height-normal);
   }
 
   h3 {
-    font-size: map-get($mapa-tipografia, $texto-h3);
+    font-size: map-get($mapa-tipografia , 'texto-h3');
     @include tipografico($weight-bold, $spacing-normal, $height-small);
   }
 
   h4 {
-    font-size: map-get($mapa-tipografia, $texto-h4);
+    font-size: map-get($mapa-tipografia , 'texto-h4');
     @include tipografico($weight-bold, $spacing-normal, $height-normal);
   }
 
   h5 {
-    font-size: map-get($mapa-tipografia, $texto-h5);
+    font-size: map-get($mapa-tipografia , 'texto-h5');
     @include tipografico($weight-light, $spacing-normal, $height-small);
   }
 
   p {
-    font-size: map-get($mapa-tipografia, $texto-p);
+    font-size: map-get($mapa-tipografia , 'texto-p');
     @include tipografico($weight-regular, $spacing-normal, $height-large);
   }
 }

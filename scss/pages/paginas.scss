@@ -1,0 +1,41 @@
+.contenedor__grid {
+
+    .seccion__titulo {
+        margin-bottom: map-get($mapa-espaciado , 'espacio-xl');
+        margin-top:map-get($mapa-espaciado , 'espacio-xl');
+    }
+
+    .seccion__contenido {
+        margin-bottom: map-get($mapa-espaciado , 'espacio-2xs');
+
+        & img {
+            max-width: 100%;
+        }
+      }
+
+    .seccion__texto {
+        margin-bottom: map-get($mapa-espaciado , 'espacio-l');
+      }
+    
+    .seccion__texto2 {
+        margin-bottom: map-get($mapa-espaciado , 'espacio-xl');
+      }
+
+    .seccion__flecha {
+      margin-bottom: map-get($mapa-espaciado , 'espacio-xl');
+      margin-top:map-get($mapa-espaciado , 'espacio-2xl');
+        
+    }
+}
+
+
+  
+
+
+
+
+
+
+
+
+
