@@ -99,13 +99,28 @@ header .nav-link {
   margin-top: 64px; }
 
 .contenedor__grid .seccion__contenido {
-  margin-bottom: 2px; }
+  margin-bottom: 4px; }
   .contenedor__grid .seccion__contenido img {
     max-width: 100%; }
 
 .contenedor__grid .seccion__texto2 {
   margin-bottom: 64px; }
+  .contenedor__grid .seccion__texto2 .texto2--bajada {
+    margin-top: 64px; }
 
 .contenedor__grid .seccion__flecha {
   margin-bottom: 64px;
   margin-top: 128px; }
+
+.contenedor__grid .flecha__img {
+  width: 5%;
+  margin-bottom: 64px; }
+
+.contenedor__grid .redes {
+  display: flex; }
+  .contenedor__grid .redes i {
+    padding-top: 12px;
+    padding-right: 12px; }
+  .contenedor__grid .redes a {
+    text-decoration: none;
+    color: #1C1B50; }
