@@ -44,3 +44,11 @@ $mapa-espaciado: (
     espacio-xl: $espacio-xl,
     espacio-2xl: $espacio-2xl,
 );
+
+//mapa breakpoints//
+
+$mapa-breakpoints: (
+    sm: 540px,
+    md: 768px,
+    lg: 1024px,
+);

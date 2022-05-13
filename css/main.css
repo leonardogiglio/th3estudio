@@ -124,3 +124,141 @@ header .nav-link {
   .contenedor__grid .redes a {
     text-decoration: none;
     color: #1C1B50; }
+
+@media (max-width: 1200px) {
+  .seccion__titulo h1,
+  .seccion__contenido h1,
+  .seccion__flecha h1,
+  .seccion__texto h1,
+  .seccion__texto2 h1 {
+    font-size: 80px; }
+  .seccion__titulo h2,
+  .seccion__contenido h2,
+  .seccion__flecha h2,
+  .seccion__texto h2,
+  .seccion__texto2 h2 {
+    font-size: 40px;
+    letter-spacing: 0; }
+  .seccion__titulo h5,
+  .seccion__contenido h5,
+  .seccion__flecha h5,
+  .seccion__texto h5,
+  .seccion__texto2 h5 {
+    font-size: 16px; } }
+
+@media (max-width: 1000px) {
+  .seccion__titulo h1,
+  .seccion__contenido h1,
+  .seccion__flecha h1,
+  .seccion__texto h1,
+  .seccion__texto2 h1 {
+    font-size: 60px;
+    letter-spacing: 0; }
+  .seccion__titulo h2,
+  .seccion__contenido h2,
+  .seccion__flecha h2,
+  .seccion__texto h2,
+  .seccion__texto2 h2 {
+    font-size: 32px; }
+  .seccion__titulo h5,
+  .seccion__contenido h5,
+  .seccion__flecha h5,
+  .seccion__texto h5,
+  .seccion__texto2 h5 {
+    font-size: 14px; }
+  .seccion__titulo p,
+  .seccion__contenido p,
+  .seccion__flecha p,
+  .seccion__texto p,
+  .seccion__texto2 p {
+    font-size: 14px; } }
+
+@media (max-width: 850px) {
+  .seccion__titulo h1,
+  .seccion__contenido h1,
+  .seccion__flecha h1,
+  .seccion__texto h1,
+  .seccion__texto2 h1 {
+    font-size: 50px; }
+  .seccion__titulo h2,
+  .seccion__contenido h2,
+  .seccion__flecha h2,
+  .seccion__texto h2,
+  .seccion__texto2 h2 {
+    font-size: 28px; }
+  .seccion__titulo h4,
+  .seccion__contenido h4,
+  .seccion__flecha h4,
+  .seccion__texto h4,
+  .seccion__texto2 h4 {
+    font-size: 24px; }
+  .seccion__titulo h3,
+  .seccion__contenido h3,
+  .seccion__flecha h3,
+  .seccion__texto h3,
+  .seccion__texto2 h3 {
+    font-size: 32px; } }
+
+@media (max-width: 700px) {
+  .seccion__titulo h1,
+  .seccion__contenido h1,
+  .seccion__flecha h1,
+  .seccion__texto h1,
+  .seccion__texto2 h1 {
+    font-size: 40px; }
+  .seccion__titulo h2,
+  .seccion__contenido h2,
+  .seccion__flecha h2,
+  .seccion__texto h2,
+  .seccion__texto2 h2 {
+    font-size: 24px; }
+  .seccion__titulo h4,
+  .seccion__contenido h4,
+  .seccion__flecha h4,
+  .seccion__texto h4,
+  .seccion__texto2 h4 {
+    font-size: 20px; }
+  .seccion__titulo h3,
+  .seccion__contenido h3,
+  .seccion__flecha h3,
+  .seccion__texto h3,
+  .seccion__texto2 h3 {
+    font-size: 18px; }
+  .seccion__titulo p,
+  .seccion__contenido p,
+  .seccion__flecha p,
+  .seccion__texto p,
+  .seccion__texto2 p {
+    font-size: 10px; } }
+
+@media (max-width: 555px) {
+  .seccion__titulo h1,
+  .seccion__contenido h1,
+  .seccion__flecha h1,
+  .seccion__texto h1,
+  .seccion__texto2 h1 {
+    font-size: 30px; }
+  .seccion__titulo h2,
+  .seccion__contenido h2,
+  .seccion__flecha h2,
+  .seccion__texto h2,
+  .seccion__texto2 h2 {
+    font-size: 22px; }
+  .seccion__titulo h4,
+  .seccion__contenido h4,
+  .seccion__flecha h4,
+  .seccion__texto h4,
+  .seccion__texto2 h4 {
+    font-size: 18px; }
+  .seccion__titulo h3,
+  .seccion__contenido h3,
+  .seccion__flecha h3,
+  .seccion__texto h3,
+  .seccion__texto2 h3 {
+    font-size: 18px; }
+  .seccion__titulo p,
+  .seccion__contenido p,
+  .seccion__flecha p,
+  .seccion__texto p,
+  .seccion__texto2 p {
+    font-size: 10px; } }

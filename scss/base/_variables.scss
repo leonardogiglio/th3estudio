@@ -44,44 +44,6 @@ $height-normal: 100%;
 $height-small: 120%;
 $height-large: 150%;
 
-//media querys tipografia//
-
-@media screen and (max-width:1000px) {
-    
-$texto-h1: 60px;
-$texto-h2: 60px;
-$texto-h3: 26px;
-$texto-h4: 22px;
-$texto-h5: 14px;
-$texto-p: 12px;
-$texto-nota: 10px;
-
-}
-
-@media screen and (max-width:850px) {
-
-$texto-h1: 50px;
-$texto-h2: 50px;
-$texto-h3: 24px;
-
-}
-
-@media screen and (max-width:700px) {
-
-$texto-h1: 40px;
-$texto-h2: 40px;
-$texto-h4: 20px;
-    
-}
- 
-@media screen and (max-width:555px) {
-
-$texto-h1: 30px;
-$texto-h2: 30px;
-$texto-h4: 18px;
-$texto-p: 10px;  
-} 
-
 //variables de espaciado//
 
 $espacio-2xs: 4px;
