@@ -17,14 +17,14 @@ $color-texto-oscuro:#0D0D0D;
 
 $font:"Ubuntu", sans-serif;
 
-$texto-h1: 96px;
-$texto-h2: 80px;
-$texto-h3: 36px;
-$texto-h4: 28px;
-$texto-h5: 20px;
-$texto-p: 16px;
-$texto-link: 14px;
-$texto-nota: 12px;
+$texto-h1: 6rem;
+$texto-h2: 5rem;
+$texto-h3: 2,25rem;
+$texto-h4: 1,75rem;
+$texto-h5: 1,25rem;
+$texto-p: 1rem;
+$texto-link: 0,875rem;
+$texto-nota: 0,75rem;
 
 //variables anchura tipografico//
 
@@ -46,11 +46,11 @@ $height-large: 150%;
 
 //variables de espaciado//
 
-$espacio-2xs: 4px;
-$espacio-xxs: 8px;
-$espacio-xs: 12px;
-$espacio-s: 16px;
-$espcaio-m: 32px;
-$espacio-l: 40px;
-$espacio-xl: 64px;
-$espacio-2xl: 128px;
+$espacio-2xs: 0,25rem;
+$espacio-xxs: 0,5rem;
+$espacio-xs: 0,75rem;
+$espacio-s: 1rem;
+$espcaio-m: 2rem;
+$espacio-l: 2,5rem;
+$espacio-xl: 4rem;
+$espacio-2xl: 8rem;

@@ -16,9 +16,9 @@
   
 </head>
 <body>
+    <!--Encabezado-->
     <div class="container-fluid">
-    <!--Navegacion Bootstrap-->
-        <header class="row sticky">
+        <header class="row sticky-top">
         <nav class="navbar navbar-expand-lg navbar-light">
             <div class="container-fluid">
               <a class="navbar-brand" href="#">
@@ -32,16 +32,18 @@
                 <a class="nav-link" href="../index.html">Home</a>
                 <a class="nav-link active" aria-current="page" href="#">Estudio</a>
                 <a class="nav-link" href="./proyectos.html">Proyectos</a>
-                <a class="nav-link" href="./quienes-somos.html">Quiénes Somos</a>
+                <a class="nav-link" href="./nosotros.html">Nosotros</a>
                 <a class="nav-link" href="./contacto.html">Contacto</a>
             </div>
             </div>
             </div>
         </nav>
         </header>
-    <!--Contenedor Animacion-->
-        <main class="contenedor__grid">
-    <!--Secciones-->
+    <!--Contenedor Animacion Inicio-->
+        <div class="contenedor__grid">
+    <!--Main-->
+        <main>
+        <!--Seccion Estudio Mayor-->
             <section class="row seccion__titulo">
                 <div class="col-1 offset-1">
                     <h5>01</h5>
@@ -63,7 +65,7 @@
                     <img src="../imagenes/estudio3.jpeg" alt="Foto estudio mayor">
                 </div>
             </section>
-
+        <!--Seccion Estudio Publicitario-->
             <section class="row seccion__titulo">
                 <div class="col-1 offset-1">
                     <h5>02</h5>
@@ -85,7 +87,7 @@
                     <img src="../imagenes/estudio4.jpg" alt="Foto estudio publicitario">
                 </div>
             </section>
-
+        <!--Seccion Estudio Menor-->
             <section class="row seccion__titulo">
                 <div class="col-1 offset-1">
                     <h5>03</h5>
@@ -107,16 +109,20 @@
                     <img src="../imagenes/estudio5.jpg" alt="Foto estudio menor">
                 </div>
             </section>
-
+        </main>
+        <!--Footer-->   
+        <footer>
+        <!--Seccion Redes y Mail-->   
             <section class="row seccion__titulo">
                 <div class="col-1 offset-1">
                     <h5>04</h5>
                 </div>
                 <div class="col-2">
-                    <h5>info@th3estudio.com</h5>
-                </div>
-                <div class="col-6 offset-2">
                     <h5>(5411) 4776-0967</h5>
+                </div>
+                <div class="col-6 offset-2 redes">
+                    <a href="https://twitter.com/?lang=es" target="_blank"><i class="fa-brands fa-twitter fa-xl"></i></a>
+                    <a href="https://twitter.com/?lang=es" target="_blank"><h5>Twitter</h5></a>
                 </div>
             </section>
             <section class="row seccion__contenido">
@@ -134,7 +140,8 @@
                     <a href="https://es-la.facebook.com/" target="_blank"><h5>Facebook</h5></a>
                 </div>
             </section>
-        </main>
+        </footer>
+        </div>
     </div>
     <!--Scripts Iconos y Bootstrap-->
         <script src="https://kit.fontawesome.com/fbb41357e6.js" crossorigin="anonymous"></script>

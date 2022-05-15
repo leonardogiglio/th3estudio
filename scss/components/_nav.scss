@@ -7,6 +7,10 @@ header {
             z-index: 1;
             margin-bottom: $espacio-xl;
         }
+        .contenedor__sticky {
+            position: sticky;
+            top: 80px;
+          }
 
         .logo {
             width: 10%;

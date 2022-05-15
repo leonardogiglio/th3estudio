@@ -12,13 +12,13 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">
         <link rel="icon" type="image/x-icon" href="./imagenes/icono.png">
-        <title>Th3. Quiénes Somos</title>
+        <title>Th3. Nosotros</title>
       
     </head>
     <body>
+    <!--Encabezado-->
         <div class="container-fluid">
-        <!--Navegacion Bootstrap-->
-            <header class="row sticky">
+            <header class="row sticky-top">
                 <nav class="navbar navbar-expand-lg navbar-light">
                     <div class="container-fluid">
                         <a class="navbar-brand" href="#">
@@ -32,16 +32,18 @@
                         <a class="nav-link" href="../index.html">Home</a>
                         <a class="nav-link" href="./estudio.html">Estudio</a>
                         <a class="nav-link" href="./proyectos.html">Proyectos</a>
-                        <a class="nav-link active" aria-current="page" href="#">Quiénes Somos</a>
+                        <a class="nav-link active" aria-current="page" href="#">Nosotros</a>
                         <a class="nav-link" href="./contacto.html">Contacto</a>
                     </div>
                     </div>
                     </div>
                 </nav>
             </header>
-        <!--Contenedor Animacion-->
-            <main class="contenedor__grid">
-        <!--Secciones-->
+        <!--Contenedor Animacion Inicio-->
+            <div class="contenedor__grid">
+        <!--Main-->
+            <main>
+            <!--Seccion Diego Diaz-->
                 <section class="row seccion__titulo">
                     <div class="col-1 offset-1">
                         <h5>01</h5>
@@ -63,7 +65,7 @@
                         <img src="../imagenes/foto26.jpg" alt="Foto Diego Diaz">
                     </div>
                 </section>
-    
+            <!--Seccion Carlos Pazos-->
                 <section class="row seccion__titulo">
                     <div class="col-1 offset-1">
                         <h5>02</h5>
@@ -85,16 +87,20 @@
                         <img src="../imagenes/foto27.jpg" alt="Foto Carlos Pazos">
                     </div>
                 </section>
-    
+        </main>
+        <footer>
+         <!--Footer-->  
+            <!--Seccion Redes y Mail-->  
                 <section class="row seccion__titulo">
                     <div class="col-1 offset-1">
                         <h5>03</h5>
                     </div>
                     <div class="col-2">
-                        <h5>info@th3estudio.com</h5>
-                    </div>
-                    <div class="col-6 offset-2">
                         <h5>(5411) 4776-0967</h5>
+                    </div>
+                    <div class="col-6 offset-2 redes">
+                        <a href="https://twitter.com/?lang=es" target="_blank"><i class="fa-brands fa-twitter fa-xl"></i></a>
+                        <a href="https://twitter.com/?lang=es" target="_blank"><h5>Twitter</h5></a>
                     </div>
                 </section>
                 <section class="row seccion__contenido">
@@ -112,8 +118,8 @@
                         <a href="https://es-la.facebook.com/" target="_blank"><h5>Facebook</h5></a>
                     </div>
                 </section>
-       
-            </main>
+        </footer>
+        </div>
         </div>
         <!--Scripts Iconos y Bootstrap-->
             <script src="https://kit.fontawesome.com/fbb41357e6.js" crossorigin="anonymous"></script>

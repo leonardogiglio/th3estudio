@@ -27,37 +27,37 @@ body {
     opacity: 1; } }
 
 .container-fluid h1 {
-  font-size: 96px;
+  font-size: 6rem;
   font-weight: 200;
   letter-spacing: -6px;
   line-height: 100%; }
 
 .container-fluid h2 {
-  font-size: 80px;
+  font-size: 5rem;
   font-weight: 200;
   letter-spacing: -6px;
   line-height: 100%; }
 
 .container-fluid h3 {
-  font-size: 36px;
+  font-size: 2, 25rem;
   font-weight: 400;
   letter-spacing: 0;
   line-height: 120%; }
 
 .container-fluid h4 {
-  font-size: 28px;
+  font-size: 1, 75rem;
   font-weight: 400;
   letter-spacing: 0;
   line-height: 100%; }
 
 .container-fluid h5 {
-  font-size: 20px;
+  font-size: 1, 25rem;
   font-weight: 100;
   letter-spacing: 0;
   line-height: 120%; }
 
 .container-fluid p {
-  font-size: 16px;
+  font-size: 1rem;
   font-weight: 200;
   letter-spacing: 0;
   line-height: 150%; }
@@ -67,7 +67,11 @@ header .sticky {
   top: 0;
   background-color: #CFCBC8;
   z-index: 1;
-  margin-bottom: 64px; }
+  margin-bottom: 4rem; }
+
+header .contenedor__sticky {
+  position: sticky;
+  top: 80px; }
 
 header .logo {
   width: 10%;
@@ -75,7 +79,7 @@ header .logo {
 
 header .nav-link {
   font-family: "Ubuntu", sans-serif;
-  font-size: 14px;
+  font-size: 0, 875rem;
   position: relative; }
   header .nav-link a {
     position: relative; }
@@ -94,36 +98,44 @@ header .nav-link {
   header .nav-link.navbar-brand:hover::after {
     width: 0%; }
 
+.contenedor__grid footer {
+  margin-top: 8rem; }
+  .contenedor__grid footer .redes {
+    display: flex; }
+    .contenedor__grid footer .redes i {
+      padding-top: 0, 75rem;
+      padding-right: 0, 75rem; }
+    .contenedor__grid footer .redes a {
+      text-decoration: none;
+      color: #1C1B50; }
+
+.container-fluid .sticky-top {
+  background-color: #CFCBC8; }
+
 .contenedor__grid .seccion__titulo {
-  margin-bottom: 64px;
-  margin-top: 64px; }
+  margin-bottom: 4rem;
+  margin-top: 4rem; }
 
 .contenedor__grid .seccion__contenido {
-  margin-bottom: 4px; }
+  margin-bottom: 0, 25rem; }
   .contenedor__grid .seccion__contenido img {
     max-width: 100%; }
+  .contenedor__grid .seccion__contenido h2 {
+    margin-bottom: 4rem;
+    margin-top: 4rem; }
 
 .contenedor__grid .seccion__texto2 {
-  margin-bottom: 64px; }
+  margin-bottom: 4rem; }
   .contenedor__grid .seccion__texto2 .texto2--bajada {
-    margin-top: 64px; }
+    margin-top: 4rem; }
 
 .contenedor__grid .seccion__flecha {
-  margin-bottom: 64px;
-  margin-top: 128px; }
+  margin-bottom: 4rem;
+  margin-top: 8rem; }
 
 .contenedor__grid .flecha__img {
   width: 5%;
-  margin-bottom: 64px; }
-
-.contenedor__grid .redes {
-  display: flex; }
-  .contenedor__grid .redes i {
-    padding-top: 12px;
-    padding-right: 12px; }
-  .contenedor__grid .redes a {
-    text-decoration: none;
-    color: #1C1B50; }
+  margin-bottom: 4rem; }
 
 @media (max-width: 1200px) {
   .seccion__titulo h1,
@@ -144,7 +156,9 @@ header .nav-link {
   .seccion__flecha h5,
   .seccion__texto h5,
   .seccion__texto2 h5 {
-    font-size: 16px; } }
+    font-size: 16px; }
+  .navbar-nav a {
+    font-size: 12px; } }
 
 @media (max-width: 1000px) {
   .seccion__titulo h1,
@@ -256,9 +270,17 @@ header .nav-link {
   .seccion__texto h3,
   .seccion__texto2 h3 {
     font-size: 18px; }
+  .seccion__titulo h5,
+  .seccion__contenido h5,
+  .seccion__flecha h5,
+  .seccion__texto h5,
+  .seccion__texto2 h5 {
+    font-size: 12px; }
   .seccion__titulo p,
   .seccion__contenido p,
   .seccion__flecha p,
   .seccion__texto p,
   .seccion__texto2 p {
-    font-size: 10px; } }
+    font-size: 10px; }
+  .navbar-brand img {
+    visibility: hidden; } }

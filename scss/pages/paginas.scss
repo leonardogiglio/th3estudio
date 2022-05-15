@@ -11,6 +11,10 @@
         & img {
             max-width: 100%;
         }
+        h2 {
+          margin-bottom: map-get($mapa-espaciado , 'espacio-xl');
+          margin-top:map-get($mapa-espaciado , 'espacio-xl');
+          }
       }
 
     .seccion__texto {
@@ -34,18 +38,6 @@
       width: 5%;
       margin-bottom: map-get($mapa-espaciado , 'espacio-xl');
     } 
-
-    .redes{
-      display: flex;
-      i {
-        padding-top: map-get($mapa-espaciado , 'espacio-xs' );
-        padding-right: map-get($mapa-espaciado , 'espacio-xs' );
-      }
-      a{
-        text-decoration: none;
-        color: map-get($mapa-color , 'color-principal-oscuro' );
-      }
-    }
   }
 
 
