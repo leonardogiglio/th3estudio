@@ -1,0 +1,25 @@
+.form-group {
+        textarea {
+                min-height: 160px;
+                background-color: $color-fondo-oscuro;
+                border: .5px solid $color-principal-oscuro;
+                resize: none;
+        }
+        input {
+                background-color: $color-fondo-oscuro;
+                border: .5px solid $color-principal-oscuro;
+        }
+}
+.btn-primary{
+        background-color: $color-fondo-oscuro;
+        border: .5px solid $color-principal-oscuro;
+        color:$color-principal-oscuro ;
+
+        &:hover {
+                background-color: $color-principal-oscuro;  
+                color:$color-fondo-oscuro ;   
+        }
+        
+}
+
+

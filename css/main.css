@@ -112,6 +112,24 @@ header .nav-link {
 .container-fluid .sticky-top {
   background-color: #CFCBC8; }
 
+.form-group textarea {
+  min-height: 160px;
+  background-color: #CFCBC8;
+  border: 0.5px solid #1C1B50;
+  resize: none; }
+
+.form-group input {
+  background-color: #CFCBC8;
+  border: 0.5px solid #1C1B50; }
+
+.btn-primary {
+  background-color: #CFCBC8;
+  border: 0.5px solid #1C1B50;
+  color: #1C1B50; }
+  .btn-primary:hover {
+    background-color: #1C1B50;
+    color: #CFCBC8; }
+
 .contenedor__grid .seccion__titulo {
   margin-bottom: 4rem;
   margin-top: 4rem; }
