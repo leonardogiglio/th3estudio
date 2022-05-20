@@ -13,6 +13,6 @@ $asunto = "Mail enviado desde web Th3 Estudio";
 
 mail ($para, $asunto, utf8_decode ($mensaje), $header);
 
-header ('Location: index.html ');
+header ('Location: contacto.html ');
 
 ?>
