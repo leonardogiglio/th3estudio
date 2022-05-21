@@ -1,0 +1,258 @@
+.galeria {
+        padding-bottom: 3em;
+        padding-top: 1em;
+        display: grid;
+        grid-template-columns:repeat(4,1fr);
+        grid-auto-rows: 160px;
+        grid-template-areas: 
+        "img1 img1 img2 img3"
+        "img1 img1 img4 img4"
+        "img5 img5 img6 img7"
+        "img5 img5 img8 img8";
+        gap: .8em;
+    }
+
+.galeria__picture1{
+    position: relative;
+    overflow: hidden;
+    &::before {
+        content:  "Lovely Denim" ;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: $color-principal-oscuro;
+        opacity: 80%;
+        transform: translate(100%);
+        transition: transform .4s;
+        color: $color-fondo-oscuro;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: $texto-p;
+    }
+    &:hover::before{
+        transform: translate(0);
+    }
+}
+
+.galeria__picture2{
+    position: relative;
+    overflow: hidden;
+    &::before {
+        content:  "Museo Mar" ;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: $color-principal-oscuro;
+        opacity: 80%;
+        transform: translate(100%);
+        transition: transform .4s;
+        color: $color-fondo-oscuro;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: $texto-p;
+    }
+    &:hover::before{
+        transform: translate(0);
+    }
+}
+
+.galeria__picture3{
+    position: relative;
+    overflow: hidden;
+    &::before {
+        content:  "Cardón" ;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: $color-principal-oscuro;
+        opacity: 80%;
+        transform: translate(100%);
+        transition: transform .4s;
+        color: $color-fondo-oscuro;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: $texto-p;
+    }
+    &:hover::before{
+        transform: translate(0);
+    }
+}
+
+.galeria__picture4{
+    position: relative;
+    overflow: hidden;
+    &::before {
+        content:  "Bacé" ;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: $color-principal-oscuro;
+        opacity: 80%;
+        transform: translate(100%);
+        transition: transform .4s;
+        color: $color-fondo-oscuro;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: $texto-p;
+    }
+    &:hover::before{
+        transform: translate(0);
+    }
+}
+
+.galeria__picture5{
+    position: relative;
+    overflow: hidden;
+    &::before {
+        content:  "Etiqueta Negra" ;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: $color-principal-oscuro;
+        opacity: 80%;
+        transform: translate(100%);
+        transition: transform .4s;
+        color: $color-fondo-oscuro;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: $texto-p;
+    }
+    &:hover::before{
+        transform: translate(0);
+    }
+}
+
+.galeria__picture6{
+    position: relative;
+    overflow: hidden;
+    &::before {
+        content:  "Cerini" ;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: $color-principal-oscuro;
+        opacity: 80%;
+        transform: translate(100%);
+        transition: transform .4s;
+        color: $color-fondo-oscuro;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: $texto-p;
+    }
+    &:hover::before{
+        transform: translate(0);
+    }
+}
+
+.galeria__picture7{
+    position: relative;
+    overflow: hidden;
+    &::before {
+        content:  "Paula Cahen D´anvers" ;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: $color-principal-oscuro;
+        opacity: 80%;
+        transform: translate(100%);
+        transition: transform .4s;
+        color: $color-fondo-oscuro;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: $texto-p;
+    }
+    &:hover::before{
+        transform: translate(0);
+    }
+}
+
+.galeria__picture8{
+    position: relative;
+    overflow: hidden;
+    &::before {
+        content:  "Esplendor Hoteles" ;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        background-color: $color-principal-oscuro;
+        opacity: 80%;
+        transform: translate(100%);
+        transition: transform .4s;
+        color: $color-fondo-oscuro;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-size: $texto-p;
+    }
+    &:hover::before{
+        transform: translate(0);
+    }
+}
+
+.galeria__titulo {
+    text-align: center;
+    font-size: $texto-h2;
+    padding-top: $espacio-s;
+}
+
+
+.galeria__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.galeria__picture--g1 {
+    grid-area: img1;
+}
+
+.galeria__picture--g2 {
+    grid-area: img2;
+}
+
+.galeria__picture--g3 {
+    grid-area: img3;
+}
+
+.galeria__picture--g4 {
+    grid-area: img4;
+}
+
+.galeria__picture--g5 {
+    grid-area: img5;
+}
+
+.galeria__picture--g6 {
+    grid-area: img6;
+}
+
+.galeria__picture--g7 {
+    grid-area: img7;
+}
+
+.galeria__picture--g8 {
+    grid-area: img8;
+}

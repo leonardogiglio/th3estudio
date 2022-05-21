@@ -88,6 +88,18 @@
         font-size: 10px ;
       }
   }
+  .galeria__picture1,
+  .galeria__picture2,
+  .galeria__picture3,
+  .galeria__picture4,
+  .galeria__picture5,
+  .galeria__picture6,
+  .galeria__picture7,
+  .galeria__picture8 {
+    &::before {
+      font-size: 10px;
+    }
+  }
 }
 
 @media (max-width:555px) {
